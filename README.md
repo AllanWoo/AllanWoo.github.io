@@ -4,9 +4,9 @@
 > 
 > 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c)
 > 
-### [我的博客在这里 &rarr;](http://qiubaiying.github.io)
+### [我的博客在这里 &rarr;](http://AllanWoo.github.io)
 
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
+
 
 
 ## 使用
@@ -83,7 +83,7 @@ tags:
 ### 侧边栏
 
 看右边:
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-side.png)
+
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 
@@ -130,7 +130,6 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	
 	
 
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
 
 ### Friends
 
@@ -143,7 +142,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 friends: [
     {
         title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        href: "https://AllanWoo.github.io/"
     },
     {
         title: "Apple",
@@ -157,7 +156,6 @@ friends: [
 
 HTML5幻灯片的排版：
 
-![](https://camo.githubusercontent.com/f30347a118171820b46befdf77e7b7c53a5641a9/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6b65796e6f74652e6a7067)
 
 这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
 
