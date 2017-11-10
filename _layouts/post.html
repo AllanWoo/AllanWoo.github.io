@@ -131,7 +131,8 @@ layout: default
                 {% endif %}
 		<!-- 畅言 评论框  -->    
 		<!--PC版-->
-		<div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
+		<!--PC版-->
+		<div id="SOHUCS" sid="<?php the_ID(); ?>" ></div>
 		<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
 		<script type="text/javascript">
 			window.changyan.api.config({
@@ -139,9 +140,6 @@ layout: default
 				conf: 'prod_61e543729e8ac09b71c42d1e1b06f0ac'
 			});
 		</script>
-
-
-            </div>  
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}
