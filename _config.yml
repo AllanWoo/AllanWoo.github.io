@@ -1,5 +1,5 @@
 # Site settings
-title: Paris.LZJ的心灵驿站
+title: 嘟嘴猫LZJ的心灵驿站
 SEOTitle: 史努比的魔法书 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: 18310324847@163.com
@@ -17,7 +17,7 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:     Paris.LZJ
 #zhihu_username:     Paris.LZJ
 github_username:    AllanWoo
@@ -96,11 +96,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
+        title: "百度",
         href: "http://zhengwuyang.com"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书",
+        href: "http://www.jianshu.com"
     },{
         title: "Apple",
         href: "https://apple.com"
