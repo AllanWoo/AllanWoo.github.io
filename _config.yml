@@ -97,7 +97,7 @@ service-worker: true
 friends: [
     {
         title: "百度",
-        href: "http://zhengwuyang.com"
+        href: "http://baidu.com"
     },{
         title: "简书",
         href: "http://www.jianshu.com"
