@@ -3,12 +3,12 @@
     "title": "嘟嘴猫LZJ的心灵驿站",
     "author": "Allan <18310324847@163.com>",
     "version": "1.7.0",
-    "homepage": "http://AllanWoo.git.io.git",
+    "homepage": "http://AllanWoo.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/AllanWoo/AllanWoo.git.io.git"
+        "url": "https://github.com/AllanWoo/AllanWoo.github.io"
     },
-    "bugs": "https://github.com/AllanWoo/AllanWoo.git.io/issues",
+    "bugs": "https://github.com/AllanWoo/AllanWoo.github.io/issues",
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
