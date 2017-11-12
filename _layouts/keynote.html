@@ -96,6 +96,7 @@ layout: default
 
 
                 <ul class="pager">
+			
                     {% if page.previous.url %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
@@ -136,16 +137,11 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-		    <!-- 畅言评论框  -->
-		    <!--PC版-->
-		<div id="SOHUCS" sid="<?php the_ID(); ?>" ></div>
-		<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-		<script type="text/javascript">
-			window.changyan.api.config({
-				appid: 'cytjaifIv',
-				conf: 'prod_61e543729e8ac09b71c42d1e1b06f0ac'
-			});
-		</script>
+		    <!-- 有信 -->
+		    <!-- UY BEGIN -->
+			<div id="uyan_frame"></div>
+			<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2148656"></script>
+		   <!-- UY END -->
 
             </div>
 
