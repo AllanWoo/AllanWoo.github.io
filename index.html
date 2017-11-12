@@ -12,6 +12,22 @@ description: "当你的才华不足以支撑你的野心时，请你静下心来
   			s.parentNode.insertBefore(hm, s);
 			})();
 	</script>
+
+	<!-- 百度推送 -->
+	<script>
+		(function(){
+    			var bp = document.createElement('script');
+    			var curProtocol = window.location.protocol.split(':')[0];
+    			if (curProtocol === 'https') {
+        			bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    			}
+    			else {
+        			bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    			}
+    			var s = document.getElementsByTagName("script")[0];
+   			s.parentNode.insertBefore(bp, s);
+		})();
+	</script>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
