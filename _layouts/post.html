@@ -41,11 +41,17 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                </div>
+                <!-- 引入时钟插件 -->
+		    <embed src="http://www.blogclock.cn/swf/S100287a6b35afb-e.swf" Width="200px" Height="200px" type="application/x-shockwave-flash" quality="high" wmode="transparent"></embed>
+		    </div>
             </div>
         </div>
     </div>
 </header>
+<!-- 引入bgm -->
+<audio controls="controls" autoplay="autoplay" loop=-1>
+  <source src="music/Two Steps From Hell - Star Sky.mp3" type="audio/mpeg" />
+</audio>
 
 <!-- Post Content -->
 <article>
