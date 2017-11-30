@@ -122,16 +122,11 @@ header-img: "img/post-bg-rwd.jpg"
     _render();
 </script>
 
-<!-- 畅言 -->
-<!--PC版-->
-<div id="SOHUCS" sid="<?php the_ID(); ?>" ></div>
-<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-<script type="text/javascript">
-window.changyan.api.config({
-appid: 'cytjaifIv',
-conf: 'prod_61e543729e8ac09b71c42d1e1b06f0ac'
-});
-</script>
+<!-- 有言 -->
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2150820"></script>
+<!-- UY END -->
 
 {% if site.duoshuo_username %}
 <!-- 多说评论框 start -->
