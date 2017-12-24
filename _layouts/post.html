@@ -135,11 +135,21 @@ layout: default
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-		<!-- 有言评论框 -->
-		<!-- UY BEGIN -->
-		<div id="uyan_frame"></div>
-			<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2150820"></script>
-		<!-- UY END -->
+		<!-- 评论gitment -->
+		<div id="gitmentContainer"></div>
+		<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+       		<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+		<script>
+		var gitment = new Gitment({
+    			owner: 'EdwardWL',
+    			repo: 'AllanWoo.github.io',
+    			oauth: {
+        			client_id: 'edfe6b5d9af7266c61a7',
+        			client_secret: 'b1755a71d5953dbd3a98c4b514cf9ee6c13b6f95',
+    			},
+		});
+gitment.render('gitmentContainer');
+</script>
 
     <!-- Side Catalog Container -->
         {% if page.catalog %}
