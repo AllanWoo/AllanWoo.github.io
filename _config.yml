@@ -1,11 +1,11 @@
 # Site settings
 title: 嘟嘴猫LZJ的心灵屋
-SEOTitle: 史努比的魔法书 | BY Allan
+SEOTitle: 史努比的魔法书 | Allan Blog
 header-img: img/post-bg-desk.jpg
 email: 18310324847@163.com
 description: "当你的才华不足以支撑你的野心时，请你静下心来认真学习."
-keyword: "Allan, BY Blog, Paris.LZJ的博客, Paris.LZJ, 史路比, Java, Apple, iPhone"
-url: "goddesslzj.top"          # your host, for absolute URL
+keyword: "Allan Blog, Paris.LZJ的博客, Paris.LZJ, 史路比, Java, Apple, iPhone"
+url: "goddesslzj.xyz"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/AllanWoo/AllanWoo.github.io.git" # you code repository
 
